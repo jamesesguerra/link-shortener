@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
+
+
+.v-application {
+    min-height: 100vh !important;
+    padding: 0 1rem 0 1rem;
+    background-color: #011747 !important;
+}
+
+.v-application, .v-app-bar {
+    font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    background-color: #011747;
+}
+
+.v-app-bar .v-btn {
+    background-color: #122b62 !important;
+    color: white;
+}
+
+h1 {
+    font-size: 2.369rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-weight: lighter;
+}
+
+.v-input {
+    border-radius: 15px !important;
+}
+
+.landing {
+    max-width: 850px !important;
+    margin: 4rem auto 4rem auto;
+}
+
+.form {
+    max-width: 800px !important;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.accentt {
+    color: #f37d62 !important;
+}
+
+.form .v-btn {
+    background: #f37d62 !important;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border-radius: 15px;
+    width: 50px;
+}
+
+.shortened {
+    font-size: 1.333rem;
+}
+
+@media only screen and (min-width: 48em) {
+    .landing h1 {
+        font-size: 3.157rem;
+    }
+}
+
+@media only screen and (min-width: 64em) {
+    .landing h1 {
+        font-size: 4.209rem;
+    }
+}
