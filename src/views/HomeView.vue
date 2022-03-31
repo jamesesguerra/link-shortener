@@ -10,7 +10,7 @@
     </v-container>
 
     <v-container class="fluid container text-center">
-      <div class="d-flex form align-baseline">
+      <div class="form">
         <v-text-field
             v-model="url"
             solo
@@ -40,6 +40,9 @@
     </v-container>
 
   </main>
+
+
+  
 
 
   

@@ -38,6 +38,9 @@ p {
 .form {
     max-width: 800px !important;
     margin: 0 auto;
+    border: 1px solid white;
+    display: flex;
+    align-items: baseline;
 }
 
 a {
