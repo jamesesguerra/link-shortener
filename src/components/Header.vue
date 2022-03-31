@@ -1,9 +1,7 @@
 <template>    
     <nav>
         <v-app-bar flat class="container fluid">
-            <v-app-bar-title class="white--text">
-                PocketURL
-            </v-app-bar-title>
+            <h2 class="white--text">PocketURL</h2>
             <v-spacer></v-spacer>
             <a href="https://dev.bitly.com/" target="_blank">
                 <v-btn depressed>Bitly API</v-btn>
